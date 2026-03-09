@@ -133,10 +133,5 @@ This project helps understand:
 * How to run containers using Podman
 * How a simple microservice application works
 
-Later this same project can also be used to demonstrate:
-
-* **Podman Pods**
-* **Podman Compose**
-* **Kubernetes YAML (podman play kube)**
 
 ---
