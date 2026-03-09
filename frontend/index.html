@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color App</title>
+</head>
 
+<body>
+
+<h2>Random Color App</h2>
+
+<button onclick="getColor()">Change Color</button>
+
+<script>
+
+function getColor(){
+
+fetch("http://localhost:5000")
+.then(res => res.json())
+.then(data => {
+
+document.body.style.backgroundColor = data.color;
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
